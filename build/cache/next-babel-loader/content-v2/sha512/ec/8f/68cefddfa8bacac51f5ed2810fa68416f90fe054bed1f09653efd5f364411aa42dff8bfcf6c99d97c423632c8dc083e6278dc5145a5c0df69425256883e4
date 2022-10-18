@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var removeHtmlTagFromString = function removeHtmlTagFromString(html) {\n  if (!html) return \"\";\n\n  try {\n    var justText = html.replace(/<\\/?[^>]+(>|$)/g, \"\");\n    return justText || \"\";\n  } catch (error) {\n    console.error(error);\n    return \"\";\n  }\n};","map":null,"metadata":{},"sourceType":"module"}

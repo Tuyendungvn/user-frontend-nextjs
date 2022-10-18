@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { all, takeLatest } from \"redux-saga/effects\";\nimport { createContact } from \"./contact\";\nimport * as types from \"@redux/types/contact\";\nexport default function* createContactSage() {\n  yield all([takeLatest(types.CREATE_CONTACT, createContact)]);\n}","map":null,"metadata":{},"sourceType":"module"}

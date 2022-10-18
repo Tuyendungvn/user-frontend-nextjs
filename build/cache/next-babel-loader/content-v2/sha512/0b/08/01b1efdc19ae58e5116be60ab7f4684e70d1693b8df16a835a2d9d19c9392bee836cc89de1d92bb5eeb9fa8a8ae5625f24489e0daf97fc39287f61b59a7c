@@ -1,0 +1,1 @@
+{"ast":null,"code":"import * as types from \"@redux/types/benefit\";\nexport const getAllBenefit = payload => ({\n  type: types.GET_ALL_BENEFIT,\n  payload\n});\nexport const getAllBenefitSuccess = payload => ({\n  type: types.GET_ALL_BENEFIT_SUCCESS,\n  payload\n});","map":null,"metadata":{},"sourceType":"module"}

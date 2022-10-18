@@ -1,0 +1,1 @@
+{"ast":null,"code":"import * as types from \"@redux/types/tag\";\nexport const getAllTag = payload => ({\n  type: types.GET_ALL_TAG,\n  payload\n});\nexport const getAllTagSuccess = payload => ({\n  type: types.GET_ALL_TAG_SUCCESS,\n  payload\n});","map":null,"metadata":{},"sourceType":"module"}

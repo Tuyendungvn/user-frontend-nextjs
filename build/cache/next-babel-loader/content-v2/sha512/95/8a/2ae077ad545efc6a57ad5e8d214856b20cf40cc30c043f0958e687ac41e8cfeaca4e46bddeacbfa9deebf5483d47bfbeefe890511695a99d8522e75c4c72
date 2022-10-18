@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var getBase64 = function getBase64(img) {\n  return new Promise(function (resolve) {\n    var reader = new FileReader();\n    reader.readAsDataURL(img);\n    reader.addEventListener(\"load\", function () {\n      return resolve(reader.result);\n    });\n  });\n};","map":null,"metadata":{},"sourceType":"module"}

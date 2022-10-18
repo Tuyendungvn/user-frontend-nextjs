@@ -1,0 +1,1 @@
+{"ast":null,"code":"import * as types from \"@redux/types/position\";\nexport const getAllPosition = () => ({\n  type: types.GET_POSITION\n});\nexport const getAllPositionSuccess = payload => ({\n  type: types.GET_POSITION_SUCCESS,\n  payload\n});","map":null,"metadata":{},"sourceType":"module"}

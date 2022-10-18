@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var unShiftArray = function unShiftArray(name, array) {\n  var draftOption = {\n    name: name,\n    slug: \"-\",\n    customSlug: \"-\"\n  };\n  array.unshift(draftOption);\n  return array;\n};","map":null,"metadata":{},"sourceType":"module"}

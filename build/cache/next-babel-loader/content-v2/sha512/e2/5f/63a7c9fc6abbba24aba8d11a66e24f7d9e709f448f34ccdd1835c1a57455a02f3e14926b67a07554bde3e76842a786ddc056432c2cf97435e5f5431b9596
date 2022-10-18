@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const errorMessageGraphql = response => {\n  const errors = (response === null || response === void 0 ? void 0 : response.errors) || [];\n\n  if (errors.length > 0) {\n    const {\n      message = \"\"\n    } = errors[0] || {};\n    return message;\n  }\n};","map":null,"metadata":{},"sourceType":"module"}

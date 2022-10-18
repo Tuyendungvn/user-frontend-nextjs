@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const getBase64 = img => new Promise(resolve => {\n  const reader = new FileReader();\n  reader.readAsDataURL(img);\n  reader.addEventListener(\"load\", () => resolve(reader.result));\n});","map":null,"metadata":{},"sourceType":"module"}

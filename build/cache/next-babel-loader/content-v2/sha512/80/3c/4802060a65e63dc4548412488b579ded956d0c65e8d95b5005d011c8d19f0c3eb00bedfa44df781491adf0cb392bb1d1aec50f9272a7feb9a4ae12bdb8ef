@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const splitStringToWordsArray = (text, character) => {\n  if (!text) return [];\n  const arr = text.split(character);\n  return arr.filter(text => text);\n};","map":null,"metadata":{},"sourceType":"module"}

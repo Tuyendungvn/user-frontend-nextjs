@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var passWordRegExp = /^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$/;\nexport var isPassWord = function isPassWord(password) {\n  return passWordRegExp.test(password);\n};","map":null,"metadata":{},"sourceType":"module"}

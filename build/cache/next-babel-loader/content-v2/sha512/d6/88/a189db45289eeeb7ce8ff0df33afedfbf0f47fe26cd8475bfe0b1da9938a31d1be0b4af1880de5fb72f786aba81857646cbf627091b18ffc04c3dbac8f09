@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const removeHtmlTagFromString = html => {\n  if (!html) return \"\";\n\n  try {\n    let justText = html.replace(/<\\/?[^>]+(>|$)/g, \"\");\n    return justText || \"\";\n  } catch (error) {\n    console.error(error);\n    return \"\";\n  }\n};","map":null,"metadata":{},"sourceType":"module"}

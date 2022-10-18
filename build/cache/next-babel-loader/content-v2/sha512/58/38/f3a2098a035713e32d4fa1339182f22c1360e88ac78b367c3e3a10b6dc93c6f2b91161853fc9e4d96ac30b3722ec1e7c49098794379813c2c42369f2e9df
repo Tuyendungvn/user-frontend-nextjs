@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var readFile = function readFile(file) {\n  if (!file) return;\n  return new Promise(function (resolve) {\n    var reader = new FileReader();\n    reader.addEventListener(\"load\", function () {\n      return resolve(reader.result);\n    }, false);\n    reader.readAsDataURL(file);\n  });\n};","map":null,"metadata":{},"sourceType":"module"}

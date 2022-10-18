@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const getBetweenDay = (dateFrom, dateTo) => {\n  const differenceInTime = dateTo.getTime() - dateFrom.getTime();\n  const differenceInDay = Math.floor(differenceInTime / (1000 * 3600 * 24));\n  return differenceInDay;\n};","map":null,"metadata":{},"sourceType":"module"}

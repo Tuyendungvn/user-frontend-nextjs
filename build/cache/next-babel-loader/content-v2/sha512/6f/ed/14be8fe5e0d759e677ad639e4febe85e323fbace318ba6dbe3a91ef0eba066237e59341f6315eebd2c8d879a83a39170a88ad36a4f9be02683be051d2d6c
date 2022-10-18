@@ -1,0 +1,1 @@
+{"ast":null,"code":"import * as types from \"@redux/types/recruitment\";\nexport const getAllMostKeyword = () => ({\n  type: types.GET_MOST_KEYWORD\n});\nexport const getAllMostKeywordSuccess = payload => ({\n  type: types.GET_MOST_KEYWORD_SUCCESS,\n  payload\n});","map":null,"metadata":{},"sourceType":"module"}

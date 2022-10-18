@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { all, takeLatest } from \"redux-saga/effects\";\nimport * as types from \"@redux/types/position\";\nimport { positionSaga } from \"./position\";\nexport default function* position() {\n  yield all([takeLatest(types.GET_POSITION, positionSaga)]);\n}","map":null,"metadata":{},"sourceType":"module"}

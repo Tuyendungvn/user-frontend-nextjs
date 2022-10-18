@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { all, takeLatest } from \"redux-saga/effects\";\nimport * as types from \"@redux/types/rating\";\nimport { getRatingByUserIdSaga } from \"./get\";\nexport default function* ratingSaga() {\n  yield all([takeLatest(types.GET_RATING_BY_USER_ID, getRatingByUserIdSaga)]);\n}","map":null,"metadata":{},"sourceType":"module"}

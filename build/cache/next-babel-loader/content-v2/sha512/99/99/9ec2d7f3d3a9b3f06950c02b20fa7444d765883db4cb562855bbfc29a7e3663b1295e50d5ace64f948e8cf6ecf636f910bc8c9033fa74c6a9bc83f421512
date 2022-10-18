@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var GET_ALL_STATIC_PAGES = \"GET_ALL_STATIC_PAGES\";\nexport var GET_ALL_STATIC_PAGES_SUCCESS = \"GET_ALL_STATIC_PAGES_SUCCESS\";\nexport var GET_STATIC_PAGE_BY_SLUG = \"GET_STATIC_PAGE_BY_SLUG\";\nexport var GET_STATIC_PAGE_BY_SLUG_SUCCESS = \"GET_STATIC_PAGE_BY_SLUG_SUCCESS\";","map":null,"metadata":{},"sourceType":"module"}

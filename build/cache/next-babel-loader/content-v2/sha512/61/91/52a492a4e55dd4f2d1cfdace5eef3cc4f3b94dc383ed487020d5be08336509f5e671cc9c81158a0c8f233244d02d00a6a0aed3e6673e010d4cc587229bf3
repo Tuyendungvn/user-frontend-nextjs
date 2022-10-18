@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { all, takeLatest } from \"redux-saga/effects\";\nimport * as types from \"@redux/types/tag\";\nimport { getAllTag } from \"./get\";\nexport default function* getAllTagSaga() {\n  yield all([takeLatest(types.GET_ALL_TAG, getAllTag)]);\n}","map":null,"metadata":{},"sourceType":"module"}

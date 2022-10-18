@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var extractVideoID = function extractVideoID(url) {\n  if (!url) return;\n  var regExp = /^.*((youtu.be\\/)|(v\\/)|(\\/u\\/\\w\\/)|(embed\\/)|(watch\\?))\\??v?=?([^#\\&\\?]*).*/;\n  var match = url.match(regExp);\n\n  if (match && match[7].length === 11) {\n    return match[7];\n  }\n};","map":null,"metadata":{},"sourceType":"module"}

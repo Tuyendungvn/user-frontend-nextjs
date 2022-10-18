@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const GET_POSITION = \"GET_POSITION\";\nexport const GET_POSITION_SUCCESS = \"GET_POSITION_SUCCESS\";","map":null,"metadata":{},"sourceType":"module"}

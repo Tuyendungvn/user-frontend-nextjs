@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var urlRegExp = /((https?):\\/\\/)?(www.)?[a-z0-9]+(\\.[a-z]{2,}){1,3}(#?\\/?[a-zA-Z0-9#]+)*\\/?(\\?[a-zA-Z0-9-_]+=[a-zA-Z0-9-%]+&?)?$/;\nexport var isUrl = function isUrl(url) {\n  return urlRegExp.test(url);\n};","map":null,"metadata":{},"sourceType":"module"}

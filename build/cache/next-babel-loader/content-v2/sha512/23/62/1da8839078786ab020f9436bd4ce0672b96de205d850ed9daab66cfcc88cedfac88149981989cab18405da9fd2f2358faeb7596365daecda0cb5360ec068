@@ -1,0 +1,1 @@
+{"ast":null,"code":"/**\n * @Note place this function into onKeyPress Input, which you want to force it enter only number\n * */\nexport const forceTextInputEnterNumber = event => {\n  if (!/[0-9]/.test(event.key)) {\n    event.preventDefault();\n  }\n};","map":null,"metadata":{},"sourceType":"module"}

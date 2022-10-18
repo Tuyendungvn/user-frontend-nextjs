@@ -1,0 +1,1 @@
+{"ast":null,"code":"import * as types from \"@redux/types/evaluate\";\nexport const getEvaluateByUserId = payload => ({\n  type: types.GET_EVALUATE_BY_USER_ID,\n  payload\n});\nexport const getEvaluateByUserIdSuccess = payload => ({\n  type: types.GET_EVALUATE_BY_USER_ID_SUCCESS,\n  payload\n});","map":null,"metadata":{},"sourceType":"module"}

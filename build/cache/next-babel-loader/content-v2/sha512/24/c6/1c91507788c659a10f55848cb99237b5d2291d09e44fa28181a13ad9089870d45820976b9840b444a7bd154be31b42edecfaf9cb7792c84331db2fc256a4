@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { all, takeLatest } from \"redux-saga/effects\";\nimport * as types from \"@redux/types/benefit\";\nimport { getAllBenefit } from \"./get\";\nexport default function* benefitSaga() {\n  yield all([takeLatest(types.GET_ALL_BENEFIT, getAllBenefit)]);\n}","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"var isDevelopment = false;\nexport var ROOT_URL = isDevelopment ? \"http://localhost:\".concat(process.env.NEXT_PUBLIC_PORT) : \"\".concat(process.env.NEXT_PUBLIC_HOST_FRONTEND);","map":null,"metadata":{},"sourceType":"module"}

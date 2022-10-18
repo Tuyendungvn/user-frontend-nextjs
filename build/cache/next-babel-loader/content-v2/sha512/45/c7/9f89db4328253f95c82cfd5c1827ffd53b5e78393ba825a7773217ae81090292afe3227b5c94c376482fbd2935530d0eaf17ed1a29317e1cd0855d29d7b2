@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { all, takeLatest } from \"redux-saga/effects\";\nimport { getAllCareerCounseling } from \"./get\";\nimport * as types from \"@redux/types/careerCounseling\";\nexport default function* careerCounselingSaga() {\n  yield all([takeLatest(types.GET_ALL_CARRER_COUSELING, getAllCareerCounseling)]);\n}","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const readFile = file => {\n  if (!file) return;\n  return new Promise(resolve => {\n    const reader = new FileReader();\n    reader.addEventListener(\"load\", () => resolve(reader.result), false);\n    reader.readAsDataURL(file);\n  });\n};","map":null,"metadata":{},"sourceType":"module"}
